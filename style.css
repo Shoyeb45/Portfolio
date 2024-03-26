@@ -1,3 +1,7 @@
+* {
+    margin:0px ;
+    padding: 0px;
+}
 .body {
     background-color: gray;
 }
@@ -6,4 +10,68 @@
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    z-index: 2;
+    top:0;
+    position: sticky;
+    margin-top: 6vh;
+    padding: 25px;
+    background-color: #fff;
+}
+
+.nav a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.nav .right {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.nav .left a {
+    color: black;
+    
+}
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    padding:4rem;
+    gap: 0px;
+    
+}
+.main img {
+    height: 35vh;
+    width: 35vh;
+    border-radius: 50%;
+    position: relative;
+}
+
+.education {
+    position: relative;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 4rem;
+    padding:2rem;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    gap: 5px;
+}
+.skill {
+    position: relative;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 4rem;
+    padding:2rem;
 }
