@@ -69,9 +69,14 @@
     gap: 5px;
 }
 .skill {
+    display: flex;
     position: relative;
     margin-left: 10rem;
     margin-right: 10rem;
     margin-top: 4rem;
     padding:2rem;
+}
+
+.skillbox {
+    display: flex;
 }
