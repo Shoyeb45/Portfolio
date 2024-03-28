@@ -61,6 +61,16 @@
     padding:2rem;
 }
 
+.education h2 {
+    position: relative;
+    margin-top: 5vh;
+}
+
+.education ul {
+    position: relative;
+    margin-top: 2vh;
+}
+
 .content {
     position: relative;
     display: flex;
@@ -68,6 +78,7 @@
     margin-top: 4vh;
     gap: 5px;
 }
+
 .skill {
     display: flex;
     position: relative;
@@ -75,8 +86,58 @@
     margin-right: 10rem;
     margin-top: 4rem;
     padding:2rem;
+    justify-content: center;
+    gap: 10vmin;
+    flex-wrap: wrap;
 }
 
 .skillbox {
     display: flex;
+    /* width: 10vmin;
+    height: 5vmin; */
+    justify-content: center;
+    align-items: center;
+    padding: 2vmin;
+    border: none;
 }
+
+.skillbox {
+    font-size: large;
+}
+
+.projects {
+    display: flex;
+    position: relative;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 4rem;
+    padding:2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    
+}
+
+.resource {
+    display: flex;
+    position: relative;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 4rem;
+    padding:2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    position: relative;
+    margin-top: 4rem;
+    height: 20vh;
+}
+
