@@ -18,7 +18,6 @@ body {
 }
 
 
-
 .nav .right {
     display: flex;
     justify-content: space-around;
@@ -218,11 +217,11 @@ body {
     text-align: center;
 }
 
-.card a, .resource a:hover {
+.card a:hover, .resource a:hover {
     color: #0b090a;
     font-weight: 700;
-
 }
+
 a {
     text-decoration: none;
     color: black;
