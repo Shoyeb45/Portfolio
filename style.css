@@ -2,8 +2,7 @@
     margin:0px ;
     padding: 0px;
 }
-.body {
-    background-color: gray;
+body {
 }
 
 .nav {
@@ -18,11 +17,11 @@
     background-color: #fff;
 }
 
-.nav a {
+/* .nav a {
     text-decoration: none;
     font-weight: 800;
     font-size: 25px;
-}
+} */
 
 .nav .right {
     display: flex;
@@ -30,9 +29,29 @@
     gap: 2vw;
 }
 
-.nav .left a {
-    color: black;
-    
+.left a {
+    text-decoration: none;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: inherit;
+    font-style:unset;
+    color: #343a40;
+}
+
+
+.right a {
+    text-decoration: none;
+    color: #343a40;
+    font-size: 25px;
+    font-family: "Playfair Display", sans-serif;
+}
+.nav a:hover {
+    color: #0c0f0a;
+    font-style: italic;
+    font-weight: 600;
+    /* background-color:#dee2e6; */
+    border-bottom: 4px solid #6c757d ;
 }
 
 .main {
@@ -53,22 +72,13 @@
     position: relative;
 }
 
-.education {
-    position: relative;
-    margin-left: 8rem;
-    margin-right: 8rem;
-    margin-top: 4rem;
-    padding:2rem;
+.main p {
+    font-family: "Playfair Display", sans-serif;
+    word-spacing: 3px;
+    font-size: 18px;
 }
-
-.education h2 {
-    position: relative;
-    margin-top: 5vh;
-}
-
-.education ul {
-    position: relative;
-    margin-top: 2vh;
+.main img:hover {  
+    box-shadow: 0px 0px 10px 6px #bfc0c0;
 }
 
 .content {
@@ -77,6 +87,40 @@
     flex-direction: column;
     margin-top: 4vh;
     gap : 0.5rem;
+}
+
+.content h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.education {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 4rem;
+    padding:2rem;
+}
+
+.education h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    position: relative;
+    margin-top: 4vh;
+}
+
+.education ul {
+    font-family: "Playfair Display", sans-serif;
+    position: relative;
+    margin-top: 2vh;
+}
+
+.inst {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
 }
 
 .skill {
@@ -114,7 +158,7 @@
     padding:2rem;
     justify-content: center;
     align-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap:5rem;
 }
 
@@ -160,10 +204,20 @@ a {
     height: 20vh;
 }
 
-h1 {
-    text-align: center;
+.title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 3rem;
 }
 
+.title h1 {
+    font-family:"Playfair Display", sans-serif ;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: #343a40;
+}
 
 @media only screen and (max-width: 600px) {
 

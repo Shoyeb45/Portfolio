@@ -4,46 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoyeb Ansari</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    </head>
 <body>
     <div class="nav">
         <div class="left">
             <a href="">SA.</a>
         </div>
         <div class="right">
-            <a href="" class="navlink">Contact</a>
-            <a href="" class="navlink">Projects</a>
-            <a href="" class="navlink">Resources</a>
-            <a href="" class="navlink">Education</a>
+            <a href="#Contact" class="navlink">Contact</a>
+            <a href="#pro" class="navlink">Projects</a>
+            <a href="#Resoures" class="navlink">Resources</a>
+            <a href="#Educations" class="navlink">Education</a>
         </div>
     </div>
 
     <div class="main">
-        <img src="https://res.cloudinary.com/ddfye0ekr/image/upload/v1711431461/30164454195_soyap1_3cdcce.png" alt="">
+        <img src="https://res.cloudinary.com/ddfye0ekr/image/upload/c_crop,ar_1:1/v1711705852/WhatsApp_Image_2024-03-29_at_15.19.14_9ba7518d_m2s0g5.jpg" alt="">
         <div class="content">
             <h2>Hi, I'm Shoyeb.</h2>
-            <h2>I love to code and build things.</h2>
-            <p></p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quis eligendi voluptate ipsum <br> quasi sequi ea sed maiores? Aut vitae placeat repellat inventore fuga commodi assumenda. Sed, eaque amet.>
+            <h2>I am aspiring to be a data scientist.</h2>
+            <p>Passionate about mathematics and skilled in competitive programming and web development, I'm eager to become a data scientist. I love solving problems and using numbers to uncover insights that drive innovation.</p>
         </div>
     </div>
 
-    <h1>Education</h1>
-    <div class="education">
+    <div class="title" >
+        <h1 id="Educations">Education</h1>
+    </div>
+    <div class="education" >
         <h2>Undergraduation</h2>
         <ul> <li>
       <dl>
-          <dt>Indian Institute of Technology Guwahati</dt>
+          <dt class="inst">Indian Institute of Technology Guwahati</dt>
         <dd>-Bsc(Hon) in DS and AI</dd>
     </dl>
 </li> </ul>
 
 <h2>Certification</h2>
-<ul> <li>Physics Wallah Institute of Innovation</li> </ul>
+<ul> <li class="inst">Physics Wallah Institute of Innovation</li> </ul>
 <h2>Secondary and higher secondary education</h2>
 <ul> 
-    <li >Jawahar Navodaya Vidyalaya, Dumra</li> 
+    <li class="inst">Jawahar Navodaya Vidyalaya, Dumra</li> 
     <ul>
         <li type="square"> <dl>
             <dt>HSC CBSE Board (2021-22)</dt>
@@ -57,8 +61,9 @@
 </ul>
 </ul>
 </div>
-
-<h1>Skills</h1>
+<div class="title">
+    <h1>Skills</h1>
+</div>
 <div class="skill">
         <div class="skillbox"><p>Java</p></div>
         <div class="skillbox"><p>C/C++</p></div>
@@ -70,8 +75,10 @@
         <div class="skillbox"><p>Excel</p></div>
     </div>
 
-    <h1>Projects</h1>
-    <div class="projects">
+    <div class="title">
+        <h1 id="pro">Projects</h1>
+    </div>
+    <div class="projects" >
         <div class="card">
             <h2>Tic Tac Toe</h2>
             <p>Playes vs Player Tic Tac Toe game, developed using HTML,CSS AND Javascript</p>
@@ -92,9 +99,11 @@
         </div>
     </div>
 
-    <h1>Resources</h1>
+    <div class="title">
+        <h1>Resources</h1>
+    </div>
     <p>Here I've provided some of my notes. I've been writing all my notes in notion. My notes are brief and it's from basic, so if you want to revise or want to study some topics from basic then my notes can be very helpful. Here are some of my notes:</p>
-    <div class="resource">
+    <div class="resource" id="Resources">
         <div class="notebox">
             <h2>Python</h2>
             <a href="https://shoyeb.notion.site/Python-a95cb7e57fa24caab007237ed9f16d50?pvs=4" target="_blank">Notion Link</a>
@@ -129,7 +138,7 @@
         </div>
     </div>
 
-    <div class="footer">
+    <div class="footer" id="Contact">
         <a href="https://github.com/Shoyeb45" target="_blank">
             <img src="https://res.cloudinary.com/ddfye0ekr/image/upload/v1711692458/github_nugibh.png" alt="" height="35px">
         </a>
