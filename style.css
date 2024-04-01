@@ -39,7 +39,7 @@
     font-size: 25px;
     font-family: "Playfair Display", sans-serif;
 }
-.nav a:hover {
+.right a:hover {
     color: #0c0f0a;
     font-style: normal;
     font-weight: 500;
