@@ -1,4 +1,11 @@
 import './globals.css'
+import { Playfair_Display } from 'next/font/google'
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '700'], // choose the weights you actually need
+  style: ['normal', 'italic'], // optional
+})
 
 export const metadata = {
   title: 'Shoyeb Ansari - Portfolio',
@@ -12,15 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com"  />
-        <link 
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" 
-          rel="stylesheet" 
-        />
-      </head>
-      <body className={`antialiased`}>
+      <body className={`${playfair.className} antialiased`}>
         {children}
       </body>
     </html>
