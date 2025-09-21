@@ -1,7 +1,7 @@
 export default function Skills() {
   const skills = [
     'Java', 'C/C++', 'Python', 'Javascript', 
-    'HTML/CSS', 'SQL', 'Pandas', 'Excel'
+    'HTML/CSS', 'SQL', 'Pandas', 'Excel', "Typescript", "NextJS", "Express", "React"
   ]
 
   return (

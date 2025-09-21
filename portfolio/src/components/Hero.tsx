@@ -21,7 +21,7 @@ export default function Hero() {
           <h2 className="text-3xl md:text-4xl font-playfair font-medium text-gray-800">
             I am aspiring to be a data scientist.
           </h2>
-          <p className="text-lg font-playfair text-gray-700 leading-relaxed max-w-2xl">
+          <p className="text-lg font-playfair text-gray-800 leading-relaxed max-w-6xl">
             Passionate about mathematics and skilled in competitive programming and web development, 
             I&apos;m eager to become a data scientist. I love solving problems and using numbers to 
             uncover insights that drive innovation.
